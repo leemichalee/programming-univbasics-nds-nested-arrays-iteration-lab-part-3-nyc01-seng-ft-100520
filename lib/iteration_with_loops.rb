@@ -8,7 +8,7 @@ def join_nested_strings(src)
         combined_string << src[row_index][element_index]
       end
     element_index += 1 
-  end
+   end
   end
   row_index += 1 
   combined_string
